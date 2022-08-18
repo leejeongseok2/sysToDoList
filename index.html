@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>나만의 to do list</title>
+</head>
+<body>
+    <div class="todo-wrapper">
+        <div class="todo-title">TO DO LIST</div>
+        <div class="todo-box">
+            <div class="todo-input-box">
+                <button class="complete-all-btn">V</button>
+                <input type="text" class="todo-input" placeholder="TO DO LIST 입력">
+                <input type="button" class="todo-insert-btn" value = "입력" required>
+            </div>
+            
+            <ul class="todo-list">
+                    
+            </ul>
+            <div class="todo-bottom">
+                <div class="left-items">현재 진행중인 일정이 없습니다</div>
+                <div class="button-group">
+                    <button class="show-all-btn selected" data-type="all">모든 일정</button>
+                    <button class="show-active-btn" data-type="active">진행중</button>
+                    <button class="show-completed-btn" data-type="completed">완료</button>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
